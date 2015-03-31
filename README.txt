@@ -15,3 +15,5 @@ HOW TO RUN:
 WHAT YOU NEED TO DO:
 right click on the images folder to upload images you like, 
 linking images to the application will be taught when you get here!
+
+NOTE: please upload horizontal/landscape pictures instead of portrait style: pictures that are roughly 3:2 work best!
