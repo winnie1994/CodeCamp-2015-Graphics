@@ -9,11 +9,8 @@ HOW TO RUN:
 1.Open index.html
 2.Press the green "Run" Button
 3.Click Preview -> Live Preview
-4.Recommended configurations: Window->Tabs->Split Pane in 2 columns
-(Will explain later, but this is so that you can work and see results simultaneously)
 
 WHAT YOU NEED TO DO:
-right click on the images folder to upload images you like, 
+To upload images you like, 
 linking images to the application will be taught when you get here!
-
 NOTE: please upload horizontal/landscape pictures instead of portrait style: pictures that are roughly 3:2 work best!
