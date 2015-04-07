@@ -27,7 +27,7 @@ function filterTint(){
 	//TODO: fill in!
 }
 
-/**Tint: Think about how do you want to combine dark and bright colors to form different shades of grey;
+/**Greyscale: Think about how do you want to combine dark and bright colors to form different shades of grey;
 in particular, how much weight does each color carries.*/
 function filterGreyscale(){
 	//TODO: fill in!
