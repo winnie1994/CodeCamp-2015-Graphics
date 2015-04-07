@@ -27,12 +27,13 @@ function filterTint(){
 	//TODO: fill in!
 }
 
-//Greyscale!
+/**Tint: Think about how do you want to combine dark and bright colors to form different shades of grey;
+in particular, how much weight does each color carries.*/
 function filterGreyscale(){
 	//TODO: fill in!
 }
 
-//your filter!
+//Your filter: Now, it is time to explore your very own filter!
 function filterYours(){
 	//TODO: fill in!
 }
