@@ -1,33 +1,34 @@
 var imagewidth;
 var imageheight;
 
-function filterYours(pixels, width, height){}
+//starter
+function filterStarter(){
+	for(var r = 0; r < imagewidth; r++){
+		for(var c = 0; c < imageheight; c++){
+			var redValue = getPixelRed(r,c);
+			var greenValue = getPixelGreen(r,c);
+			var blueValue = getPixelBlue(r,c);
+			var newRedValue = redValue/2;
+			var newGreenValue = greenValue/2;
+			var newBlueValue = blueValue/2;
+			setPixelRed(r,c,newRedValue);
+			setPixelGreen(r,c,newGreenValue);
+			setPixelBlue(r,c,newBlueValue);
+		}
+	}
+}
+
+//tint
+function filterTint(){
+	//TODO: fill in!
+}
+
 //greyscale!
 function filterGreyscale(){
-
+	//TODO: fill in!
 }
 
-//filter on color!
-function filterColors() {
-for(var r = 0; r < imagewidth; r++){
-	for(var c = 0; c < imageheight;c++){
-		var newGreenPixel = 1.2*getPixelGreen(r,c)-40;
-		setPixelGreen(r,c,newGreenPixel);
-		var newBluePixel = 0.9*getPixelBlue(r,c);
-		setPixelBlue(r,c,newBluePixel);
-	}
-	}
+//your filter!
+function filterYours(){
+	//TODO: fill in!
 }
-
-//filter on position
-function filterVignette(pixels, width, height){
-}
-
-//filter on position and color!
-function filterRainbow(pixels,width,height) {
-}
-
-
-
-
-

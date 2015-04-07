@@ -12,11 +12,15 @@ var pixels;
     imagewidth = imageCanvas.width;
     imageheight = imageCanvas.height;
     // DOM filter buttons
-    var gry = document.getElementById('f_gry');
-    var vgt = document.getElementById('f_vgt');
-    var crv = document.getElementById('f_crv');
-    var rbw = document.getElementById('f_rbw');
-    var per = document.getElementById('f_per');
+    var gry = document.getElementById('f_gry'); //greyscale
+    //var vgt = document.getElementById('f_vgt');
+    //var crv = document.getElementById('f_crv');
+    //var rbw = document.getElementById('f_rbw');
+    var per = document.getElementById('f_per'); //own invention
+    var stt = document.getElementById('f_stt'); //starter
+    var tnt = document.getElementById('f_tnt'); //tint
+    
+    
     var reset = document.getElementById('reset');
     var im1 = document.getElementById('photo1');
     var im2 = document.getElementById('photo2');
@@ -51,6 +55,7 @@ var pixels;
             apply(filterGreyscale);
             event.preventDefault();
         });
+        /*
     	vgt.addEventListener('click', function(event){
 	        apply(filterVignette);
     	    event.preventDefault();
@@ -64,10 +69,19 @@ var pixels;
             apply(filterRainbow);
             event.preventDefault();
         });
+        */
+        stt.addEventListener('click', function(event){
+            apply(filterStarter);
+            event.preventDefault();
+        });
+        tnt.addEventListener('click', function(event) {
+            apply(filterTint);
+            event.preventDefault();
+        });
     	per.addEventListener('click', function(event) {
-                apply(filterYours);
-                event.preventDefault();
-            });
+            apply(filterYours);
+            event.preventDefault();
+        });
 
         reset.addEventListener('click', function(event) {
         canvasContext.drawImage(image, 0, 0, imageCanvas.width, (imageCanvas.width/image.width)*image.height);
